@@ -31,12 +31,12 @@ public class Main {
         Dev devMe = new Dev();
         devMe.setNome(devName);
         devMe.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos Inscritos: " + devMe + " " + devMe.getConteudosInscritos());
+        System.out.println("Conteúdos Inscritos " + devMe.getNome() + ": " + devMe.getConteudosInscritos());
         devMe.progredir();
         devMe.progredir();
         System.out.println("-");
-        System.out.println("Conteúdos Inscritos: " + devMe + " " + devMe.getConteudosInscritos());
-        System.out.println("Conteúdos Concluídos: " + devMe + " " + devMe.getConteudosConcluidos());
+        System.out.println("Conteúdos Inscritos " + devMe.getNome() + ": " + devMe.getConteudosInscritos());
+        System.out.println("Conteúdos Concluídos " + devMe.getNome() + ": " + devMe.getConteudosConcluidos());
         System.out.println("XP:" + devMe.calcularTotalXP());
 
         System.out.println("------------------------------------------------------");
